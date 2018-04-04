@@ -11,3 +11,62 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
+
+
+#modificado por walter desde aqui asi que puedes borrarlo espero
+
+# Creado por https://www.gitignore.io/api/laravel,windows,composer
+
+### Compositor ###
+composer.phar
+/vendedor/
+
+# Confirme el archivo de bloqueo de su aplicación http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# Puede elegir ignorar un archivo de bloqueo de biblioteca http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### Laravel ###
+/vendedor
+node_modules /
+npm-debug.log
+
+# Laravel 4 específico
+bootstrap / compiled.php
+aplicación / almacenamiento /
+
+# Laravel 5 y Lumen específico
+público / almacenamiento
+público / caliente
+clave de almacenamiento / *.
+.env. *. php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
+# Rocketeer PHP task runner y paquete de implementación. https://github.com/rocketeers/rocketeer
+.rocketeer /
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de configuración de carpeta
+Desktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECYCLE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msm
+* .msp
+
+# Accesos directos de Windows
+* .lnk
+
+
+# Fin de https://www.gitignore.io/api/laravel,windows,composer
